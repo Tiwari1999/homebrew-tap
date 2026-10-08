@@ -4,8 +4,8 @@ class AgentIsland < Formula
   desc "Every coding agent you run, in your MacBook notch"
   homepage "https://agentisland.in"
   url "https://github.com/Tiwari1999/Agent-Island.git",
-      tag:      "v0.5.10",
-      revision: "869f5931b7f2f3b965e2dc5468bc060a19a50d0a"
+      tag:      "v0.5.11",
+      revision: "318e3b53dd1ffb96d6723e59e0efac78a8b2778f"
   license "MIT"
   head "https://github.com/Tiwari1999/Agent-Island.git", branch: "main"
 
