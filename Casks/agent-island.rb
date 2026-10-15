@@ -14,6 +14,9 @@ cask "agent-island" do
 
   # Sparkle updates it in place, so brew must not treat a newer bundle as drift.
   auto_updates true
+  # The DMG carries an arm64-only build. An Intel Mac should take the formula, which compiles
+  # natively: brew install tiwari1999/tap/agent-island
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "AgentIsland.app"
